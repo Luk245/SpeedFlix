@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: 'Trajan Pro', sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 4px #112861;
+    padding: 20px;
+    font-size: 32px;
+    color: #78b375;
+}
+
+.chamada {
+    background: #a8aaab;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.video {
+    margin-right: 20px;
+}
+
+
+
+.Outras-SpeedRuns {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.videos {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.Outras-SpeedRuns img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.Outras-SpeedRuns img:hover {
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.videos h2 {
+    color: #78b375;
+}
